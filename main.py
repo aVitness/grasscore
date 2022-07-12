@@ -10,7 +10,7 @@ discord_login_url = "https://discord.com/api/oauth2/authorize?client_id=91062329
 def get_access_token(code):
     payload = {
         "client_id": "910623293751562281",
-        "client_secret": "4tq84WAqhtIt7yKY5jRrBNeXGI5N4Vzj",
+        "client_secret": " ",
         "grant_type": "authorization_code",
         "code": code,
         "redirect_uri": "http://127.0.0.1:5000/login",
